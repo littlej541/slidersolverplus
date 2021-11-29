@@ -1,0 +1,19 @@
+{
+	"appName": "SlideSolver",
+	"appUrl": "./index.html",
+	"configUrl": "./appconfig.json",
+	"iconUrl": "./images/icon.png",
+	"defaultWidth": 250,
+	"defaultHeight": 320,
+	"minWidth": 250,
+	"minHeight": 75,
+	"maxWidth": 1000,
+	"maxHeight": 1000,
+	"requestHandlers": [ ],
+	"appFrame": "default",
+	"activators": [
+		"regex:Open (Puzzle casket|Puzzle scroll box) \\((easy|medium|hard|elite|master)\\)",
+		"Open Puzzle box"
+	],
+	"permissions": "pixel,overlay,gamestate"
+}
