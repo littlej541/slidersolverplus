@@ -481,6 +481,8 @@ ss.overlay2step = async function (lastdrawn = null) {
 			let mp = a1lib.mousePosition();
 			await mouseOverCheck(mp.x, mp.y,  pos.x[0], y1 = pos.y[0], ss.tilesize, ss.tilesize);
 		}
+		
+		lastdrawn = first
 	}
 
 	if (ss.overlayinterval) { ss.overlayinterval = setTimeout(() => ss.overlay2step(lastdrawn)); }
